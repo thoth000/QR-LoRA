@@ -1,5 +1,7 @@
 # 🚀 QR-LoRA 🚀
 
+🎉 **Accepted to ICCV 2025**
+
 **Official PyTorch implementation of QR-LoRA**
 
 [QR-LoRA: Efficient and Disentangled Fine-tuning via QR Decomposition for Customized Generation](https://arxiv.org/abs/2507.04599)  
