@@ -35,6 +35,17 @@ pip install -r requirements.txt
 
 ### Train QR-LoRA for a given input image based on [FLUX-dev1](https://huggingface.co/black-forest-labs/FLUX.1-dev):
 
+0. prepare FLUX.1-dev Model
+```
+huggingface-cli login
+```
+
+1. write MODEL_NAME settings to .sh files
+```
+MODEL_NAME="black-forest-labs/FLUX.1-dev"
+```
+
+2. run train tutorial
 ```bash
 # for style:
 bash flux_dir/train_deltaR_sty.sh 0 64
