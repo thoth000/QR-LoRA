@@ -3,8 +3,8 @@
 export CUDA_VISIBLE_DEVICES=$1
 
 # setting your LORA1_PATH LORA2_PATH
-LORA1_PATH="exps_flux/xx/checkpoint-1000/pytorch_lora_weights.safetensors"
-LORA2_PATH="exps_flux/xx/checkpoint-1000/pytorch_lora_weights.safetensors"
+LORA1_PATH="exps_flux/1001-162230-<s>-64/checkpoint-1000/pytorch_lora_weights.safetensors"
+LORA2_PATH="exps_flux/1001-164020-<c>-64/checkpoint-1000/pytorch_lora_weights.safetensors"
 LORA1_NAME="sty"
 LORA2_NAME="cnt"
 

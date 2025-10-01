@@ -9,3 +9,6 @@ flux_dir/flux_residual_weights.safetensors
 
 # inference results
 outputs_infer_flux
+
+# matrix similarity results
+output_vis
