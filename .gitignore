@@ -1,5 +1,11 @@
-# results
+# training results
 exps_flux/
 
 # error log
 *.pyc
+
+# flux model weights
+flux_dir/flux_residual_weights.safetensors
+
+# inference results
+outputs_infer_flux

@@ -1,8 +1,8 @@
 #!/bin/bash
 
-MODEL_PATH="/path/to/FLUX.1-dev"
-CONTENT_LORA_PATH="exps_flux/xx/checkpoint-1000/pytorch_lora_weights.safetensors"
-STYLE_LORA_PATH="exps_flux/xx/checkpoint-1000/pytorch_lora_weights.safetensors"
+MODEL_PATH="black-forest-labs/FLUX.1-dev"
+CONTENT_LORA_PATH="/home/sano/documents/QR-LoRA/exps_flux/1001-164020-<c>-64/checkpoint-1000/pytorch_lora_weights.safetensors"
+STYLE_LORA_PATH="/home/sano/documents/QR-LoRA/exps_flux/1001-162230-<s>-64/checkpoint-1000/pytorch_lora_weights.safetensors"
 RESIDUAL_PATH="flux_dir/flux_residual_weights.safetensors"
 
 CNT_TRIGGER_NAME="<c>"

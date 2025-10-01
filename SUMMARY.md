@@ -193,20 +193,20 @@ bash flux_dir/train_QR.sh 0 64
 
 ### 3. 残差重みの事前保存
 ```bash
-bash flux_dir/save_flux_residual.sh 1
+bash flux_dir/save_flux_residual.sh 0
 ```
 - 推論高速化のため、初期化分解行列を事前計算して保存
 
 ### 4. 推論（マージと生成）
 ```bash
-bash flux_dir/inference_merge.sh 1
+bash flux_dir/inference_merge.sh 0
 ```
 - スタイルとコンテンツのΔR行列をマージして画像生成
 - 異なるスケール係数の組み合わせで複数の画像を生成
 
 ### 5. 類似度解析
 ```bash
-bash test/visualize_qrlora_similarity.sh 1
+bash test/visualize_qrlora_similarity.sh 0
 ```
 - 2つのLoRA重み間の分離性を可視化・評価
 

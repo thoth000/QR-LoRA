@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # model path
-MODEL_PATH="/path/to/FLUX.1-dev"
+MODEL_PATH="black-forest-labs/FLUX.1-dev"
 RANK=64
 OUTPUT_DIR="flux_dir"
 
