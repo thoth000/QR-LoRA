@@ -1,0 +1,4 @@
+exps_flux/
+
+# error log
+*.pyc
