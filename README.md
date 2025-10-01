@@ -23,7 +23,8 @@ We propose QR-LoRA, a novel fine-tuning framework leveraging QR decomposition fo
 ## 🛠️ Installation
 
 ```bash
-git clone https://github.com/luna-ai-lab/QR-LoRA.git
+# git clone https://github.com/luna-ai-lab/QR-LoRA.git
+git clone git@github.com:thoth000/QR-LoRA.git
 cd QR-LoRA
 conda create -n qrlora python=3.10 -y
 conda activate qrlora
